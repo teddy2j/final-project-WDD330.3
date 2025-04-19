@@ -29,7 +29,7 @@ window.onload = function () {
                 productElement.classList.add('featured-product');
 
                 productElement.innerHTML = `<a href="product-pages/index.html?id=${product.id}">
-              <img src="../images/${product.image}" alt="${product.name}">
+              <img src="/final-project-WDD330.3/images/${product.image}" alt="${product.name}">
             </a>
             <p>${product.name}</p>
             <p>$${product.price}</p>`;
